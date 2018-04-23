@@ -1,0 +1,427 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow: auto;
+}
+
+.header {
+  background-color: #565051;
+  margin-top: 0em;
+}
+
+.brand-image {
+  padding: 1em;
+}
+
+#brand-image-1 {
+  max-width: 55%;
+  height: auto;
+}
+
+#brand-image-2 {
+  max-width: 55%;
+  height: auto;
+  display: none;
+}
+
+.announcement {
+  background-color: #F8EBEA;
+  display: block;
+  padding: 0.5em;
+}
+
+.navigation {
+  clear: both;
+  padding: 1em;
+  overflow: hidden;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.navigation li {
+  list-style-type: none;
+  border-bottom: 0.05em solid lightgrey;
+  padding: 0.07em;
+  color: #E41B17;
+}
+
+.navigation li a {
+  color: #E41B17;
+  text-decoration: none;
+}
+
+.navigation li:hover {
+  color: white;
+  background-color: #FF6B67;
+  font-weight: bold;
+}
+
+.navigation li:hover a {
+  color: white;
+}
+
+.gellary {
+  clear: both;
+  display: none;
+  background-image: url(../res/pagetitle_home.jpg);
+  background-size: 100%;
+  max-height: 20em;
+}
+
+.gellarytext {
+  max-width: 45%;
+  color: white;
+  padding: 1.2em;
+  font-size: 1.7vw;
+}
+
+.featuring {
+  padding: 1.2em;
+  overflow: hidden;
+}
+
+.featuring ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#featuringHeading {
+  color: #FF6B67;
+  font-weight: lighter;
+}
+
+.featuringItem {
+  display: block;
+  overflow: hidden;
+  float: left;
+  height: 6em;
+  width: 24em;
+  padding: 1.2em;
+}
+
+.featuringItemImage {
+  float: left;
+  width: 25%;
+}
+
+.featuringItemImage img {
+  max-width: 100%;
+}
+
+.featuringItemText {
+  float: right;
+  width: 75%;
+  padding-left: 1.2em;
+}
+
+.featuringItemText p {
+  margin: 0em;
+  color: #FF6B67;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#featuringItemTextName {
+  font-size: 1.7em;
+  color: black;
+  font-style: normal;
+  font-size: 1.34em;
+  font-weight: normal;
+}
+
+#wht2ExpectHeading {
+  color: #FF6B67;
+  font-weight: bold;
+}
+
+.wht2Expect {
+  clear: both;
+  padding: 2em 1.34em 1.34em 1.34em;
+}
+
+.wht2Expect ul {
+  list-style: none;
+  padding: 0em;
+  line-height: 1.6em;
+}
+
+.wht2Expect ul li:before {
+  content: "\00BB \0020";
+  color: red;
+  font-weight: bold;
+}
+
+.remarksCover {
+  padding: 0.5em;
+  clear: both;
+}
+
+.remarks {
+  background-color: #F8EBEA;
+  padding: 1.2em;
+}
+
+.comment {
+  padding: 0.2em;
+}
+
+.commentor {
+  padding-left: 2em;
+}
+
+.remarks .commentor {
+  color: #FF6B67;
+  text-decoration: underline;
+}
+
+#missedLastYearHeading {
+  color: #FF6B67;
+  font-weight: bold;
+}
+
+.missedLastYear {
+  padding: 2em;
+}
+
+.missedLastYear p a {
+  color: #FF6B67;
+  text-decoration: underline;
+}
+
+.sponcers {
+  clear: both;
+  width: 100%;
+  background-color: #F0F0F0;
+  padding: 2em;
+  overflow: hidden;
+}
+
+.sponcers ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+}
+
+.sponcers ul li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#sponcersHeading {
+  color: #FF6B67;
+  font-weight: bold;
+}
+
+.sponcerItemCover {
+  padding: 1em;
+  position: relative;
+}
+
+.sponcerItem {
+  width: 16em;
+  height: 10em;
+  display: block;
+  border: 1em solid white;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sponcerItemCover:hover {
+  border-color: #FF6B67;
+}
+
+.sponcerItemImage img {
+  background-color: white;
+  max-width: 100%;
+}
+
+.gold::before {
+  content: "GOLD";
+  position: absolute;
+  background-color: #D70000;
+  color: white;
+  top: 1em;
+  left: 1em;
+}
+
+.silver::before {
+  content: "SILVER";
+  position: absolute;
+  background-color: #D70000;
+  color: white;
+  top: 1em;
+  left: 1em;
+}
+
+.sponcersStatus {
+  position: absolute;
+  background-color: #D70000;
+  color: white;
+  top: 1em;
+  left: 1em;
+}
+
+/*  */
+
+.footer {
+  clear: both;
+  background-color: #BD3632;
+  padding: 2em;
+}
+
+.footer p {
+  color: white;
+}
+
+.twitterLink img {
+  float: left;
+}
+
+.twitterLink p {
+  font-size: 1.15em;
+  text-decoration: underline;
+  margin: 0em;
+}
+
+#hashtag {
+  margin: 0em;
+  color: #D1D0CE;
+  font-size: 100%;
+  padding-top: 0.3em
+}
+
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer li {
+  margin: 0em;
+  color: #D1D0CE;
+  font-size: 100%;
+  padding-top: 0.3em;
+  text-decoration: underline;
+}
+
+.footer ul li a, .footer .twitterLink p a {
+  color: lightgrey;
+}
+
+/*
+If screen size is more than 600px wide
+the desktop version styles will be applying
+*/
+
+@media screen and (min-width: 700px) {
+  .header {
+    background-color: white;
+    padding: 1em;
+    overflow: hidden;
+  }
+  #brand-image-1 {
+    display: none;
+  }
+  #brand-image-2 {
+    display: inline;
+  }
+  .brand-image {
+    display: inline;
+    float: left;
+    max-width: 55%;
+  }
+  .announcement {
+    margin-top: 2em;
+    display: inline;
+    float: right;
+    max-width: 45%;
+  }
+  .navigation {
+    padding-bottom: 0;
+  }
+  .navigation li {
+    float: left;
+    border-bottom: none;
+    padding: 0.5em;
+    color: #0C090A;
+    position: relative;
+  }
+  .navigation li a {
+    color: #0C090A;
+    text-decoration: none;
+  }
+  .navigation li:hover {
+    background-color: white;
+  }
+  .navigation li:hover a {
+    color: #FF6B67;
+    background-color: white;
+    font-weight: bold;
+  }
+  .navigation li:hover::after {
+    content: url(../res/navigation_cur.png);
+    display: block;
+    width: 10px;
+    height: auto;
+    color: white;
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #lastlistitem {
+    float: right;
+    background-color: #FF6B67;
+    color: white;
+  }
+  #lastlistitem:hover a {
+    background-color: #FF6B67;
+    color: white;
+  }
+  .gellary {
+    display: block;
+  }
+  .featuring {
+    clear: both;
+    float: left;
+    width: 65%;
+  }
+  .wht2Expect {
+    clear: none;
+    float: right;
+    width: 35%;
+  }
+  .remarks {
+    clear: both;
+    float: left;
+    width: 65%;
+  }
+  .missedLastYear {
+    clear: none;
+    float: right;
+    width: 35%;
+    padding-top: 0em;
+  }
+  #missedLastYearHeading {
+    margin: 0em;
+  }
+  /* .sponcers {
+
+  } */
+  .comment {
+    display: block;
+    float: left;
+    width: 50%;
+  }
+}
